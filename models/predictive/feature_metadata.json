@@ -1,0 +1,25 @@
+{
+  "features": [
+    "pct_schools_electricity",
+    "pct_schools_drinking_water",
+    "pct_schools_toilets",
+    "pct_schools_computers",
+    "pct_schools_library",
+    "pct_schools_permanent_building",
+    "pupil_teacher_ratio",
+    "pct_schools_medical_checkup",
+    "pct_govt_schools",
+    "pct_literate_parents",
+    "pct_urban_hh",
+    "pct_sc_st_population",
+    "pct_professional_occupation",
+    "hdi_proxy"
+  ],
+  "target_construction": [
+    "perf_subindex",
+    "equity_subindex"
+  ],
+  "n_samples": 785,
+  "n_features": 14,
+  "best_model": "Ridge Regression"
+}

@@ -1,0 +1,239 @@
+{
+  "Performance": {
+    "group": "Performance",
+    "columns": [
+      "nas_math_cl3",
+      "nas_lang_cl3",
+      "nas_math_cl5",
+      "nas_lang_cl5",
+      "nas_math_cl8",
+      "nas_lang_cl8"
+    ],
+    "kmo": 0.3532,
+    "bartlett_chi2": 5878.1774,
+    "bartlett_p": 0.0,
+    "eigenvalues": [
+      5.1811,
+      0.2216,
+      0.1988,
+      0.1669,
+      0.1256,
+      0.1136
+    ],
+    "retained_components": 1,
+    "explained_variance_ratios": [
+      0.8624
+    ],
+    "total_explained_variance": 0.8624,
+    "rotated_loadings": {
+      "nas_math_cl3": [
+        0.4175
+      ],
+      "nas_lang_cl3": [
+        0.4173
+      ],
+      "nas_math_cl5": [
+        0.4083
+      ],
+      "nas_lang_cl5": [
+        0.4067
+      ],
+      "nas_math_cl8": [
+        0.3996
+      ],
+      "nas_lang_cl8": [
+        0.3997
+      ]
+    },
+    "component_weights": [
+      1.0
+    ],
+    "raw_score_min": -5.3728,
+    "raw_score_max": 6.4868,
+    "status": "OK"
+  },
+  "Infrastructure": {
+    "group": "Infrastructure",
+    "columns": [
+      "pct_schools_electricity",
+      "pct_schools_drinking_water",
+      "pct_schools_toilets",
+      "pct_schools_computers",
+      "pct_schools_library",
+      "pct_schools_permanent_building",
+      "pct_schools_medical_checkup",
+      "pupil_teacher_ratio"
+    ],
+    "kmo": 0.7024,
+    "bartlett_chi2": 2411.2568,
+    "bartlett_p": 0.0,
+    "eigenvalues": [
+      4.0724,
+      0.8441,
+      0.7496,
+      0.6749,
+      0.607,
+      0.4086,
+      0.3405,
+      0.3132
+    ],
+    "retained_components": 1,
+    "explained_variance_ratios": [
+      0.5084
+    ],
+    "total_explained_variance": 0.5084,
+    "rotated_loadings": {
+      "pct_schools_electricity": [
+        0.3776
+      ],
+      "pct_schools_drinking_water": [
+        0.4137
+      ],
+      "pct_schools_toilets": [
+        0.4106
+      ],
+      "pct_schools_computers": [
+        0.3291
+      ],
+      "pct_schools_library": [
+        0.3165
+      ],
+      "pct_schools_permanent_building": [
+        0.423
+      ],
+      "pct_schools_medical_checkup": [
+        0.2462
+      ],
+      "pupil_teacher_ratio": [
+        0.2638
+      ]
+    },
+    "component_weights": [
+      1.0
+    ],
+    "raw_score_min": -3.9673,
+    "raw_score_max": 5.0855,
+    "status": "OK"
+  },
+  "Equity": {
+    "group": "Equity",
+    "columns": [
+      "gender_gap_math_cl5",
+      "gender_gap_lang_cl5",
+      "rural_urban_gap_math",
+      "sc_gap_math_cl5",
+      "st_gap_math_cl5"
+    ],
+    "kmo": 0.4929,
+    "bartlett_chi2": 6.3136,
+    "bartlett_p": 0.788261,
+    "pca_suitability_warning": "KMO < 0.50 and Bartlett non-significant. Results should be interpreted cautiously.",
+    "eigenvalues": [
+      1.0828,
+      1.0337,
+      1.003,
+      0.9726,
+      0.9143
+    ],
+    "retained_components": 3,
+    "explained_variance_ratios": [
+      0.2163,
+      0.2065,
+      0.2003
+    ],
+    "total_explained_variance": 0.6231,
+    "rotated_loadings": {
+      "gender_gap_math_cl5": [
+        0.096,
+        0.8128,
+        -0.1702
+      ],
+      "gender_gap_lang_cl5": [
+        0.6063,
+        0.2713,
+        0.1178
+      ],
+      "rural_urban_gap_math": [
+        0.3963,
+        -0.5051,
+        -0.3732
+      ],
+      "sc_gap_math_cl5": [
+        -0.6804,
+        0.0549,
+        -0.0605
+      ],
+      "st_gap_math_cl5": [
+        0.0572,
+        -0.0874,
+        0.9024
+      ]
+    },
+    "component_weights": [
+      0.3471,
+      0.3314,
+      0.3215
+    ],
+    "raw_score_min": -1.8049,
+    "raw_score_max": 1.5827,
+    "status": "OK"
+  },
+  "Circumstances": {
+    "group": "Circumstances",
+    "columns": [
+      "pct_literate_parents",
+      "pct_urban_hh",
+      "pct_professional_occupation",
+      "hdi_proxy"
+    ],
+    "kmo": 0.3234,
+    "bartlett_chi2": 649.3228,
+    "bartlett_p": 0.0,
+    "eigenvalues": [
+      2.0006,
+      0.9986,
+      0.6866,
+      0.3194
+    ],
+    "retained_components": 1,
+    "explained_variance_ratios": [
+      0.4995
+    ],
+    "total_explained_variance": 0.4995,
+    "rotated_loadings": {
+      "pct_literate_parents": [
+        0.5959
+      ],
+      "pct_urban_hh": [
+        0.082
+      ],
+      "pct_professional_occupation": [
+        0.4931
+      ],
+      "hdi_proxy": [
+        0.6285
+      ]
+    },
+    "component_weights": [
+      1.0
+    ],
+    "raw_score_min": -3.4729,
+    "raw_score_max": 3.5738,
+    "status": "OK"
+  },
+  "MEEI_stage2": {
+    "status": "OK",
+    "n_districts": 785,
+    "pc1_loadings": {
+      "perf_subindex": 0.5605,
+      "infra_subindex": 0.5882,
+      "equity_subindex": 0.0113,
+      "circ_subindex": 0.5829
+    },
+    "explained_variance_ratio": 0.6388,
+    "orientation_check": {
+      "perf_loading": 0.5605,
+      "flipped": false
+    }
+  }
+}

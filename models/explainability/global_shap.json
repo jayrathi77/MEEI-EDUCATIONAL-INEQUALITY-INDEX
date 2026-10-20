@@ -1,0 +1,108 @@
+{
+  "model_type": "Ridge",
+  "expected_value": 0.0529,
+  "n_districts": 785,
+  "features": [
+    "pct_schools_electricity",
+    "pct_schools_drinking_water",
+    "pct_schools_toilets",
+    "pct_schools_computers",
+    "pct_schools_library",
+    "pct_schools_permanent_building",
+    "pupil_teacher_ratio",
+    "pct_schools_medical_checkup",
+    "pct_govt_schools",
+    "pct_literate_parents",
+    "pct_urban_hh",
+    "pct_sc_st_population",
+    "pct_professional_occupation",
+    "hdi_proxy"
+  ],
+  "global_importance": [
+    {
+      "feature": "hdi_proxy",
+      "label": "HDI Proxy Score",
+      "mean_abs_shap": 0.130556,
+      "rank": 1
+    },
+    {
+      "feature": "pct_schools_permanent_building",
+      "label": "Schools with Permanent Building (%)",
+      "mean_abs_shap": 0.0018,
+      "rank": 2
+    },
+    {
+      "feature": "pct_schools_drinking_water",
+      "label": "Schools with Drinking Water (%)",
+      "mean_abs_shap": 0.000793,
+      "rank": 3
+    },
+    {
+      "feature": "pct_schools_electricity",
+      "label": "Schools with Electricity (%)",
+      "mean_abs_shap": 0.000702,
+      "rank": 4
+    },
+    {
+      "feature": "pct_literate_parents",
+      "label": "Literate Parents (%)",
+      "mean_abs_shap": 0.00064,
+      "rank": 5
+    },
+    {
+      "feature": "pupil_teacher_ratio",
+      "label": "Pupil-Teacher Ratio",
+      "mean_abs_shap": 0.000375,
+      "rank": 6
+    },
+    {
+      "feature": "pct_professional_occupation",
+      "label": "Professional Occupation (%)",
+      "mean_abs_shap": 0.000356,
+      "rank": 7
+    },
+    {
+      "feature": "pct_schools_computers",
+      "label": "Schools with Computers (%)",
+      "mean_abs_shap": 0.000255,
+      "rank": 8
+    },
+    {
+      "feature": "pct_schools_library",
+      "label": "Schools with Library (%)",
+      "mean_abs_shap": 0.000158,
+      "rank": 9
+    },
+    {
+      "feature": "pct_schools_medical_checkup",
+      "label": "Medical Check-up Coverage (%)",
+      "mean_abs_shap": 0.000107,
+      "rank": 10
+    },
+    {
+      "feature": "pct_schools_toilets",
+      "label": "Schools with Toilets (%)",
+      "mean_abs_shap": 8e-05,
+      "rank": 11
+    },
+    {
+      "feature": "pct_urban_hh",
+      "label": "Urban Households (%)",
+      "mean_abs_shap": 7.8e-05,
+      "rank": 12
+    },
+    {
+      "feature": "pct_sc_st_population",
+      "label": "SC/ST Population (%)",
+      "mean_abs_shap": 3.6e-05,
+      "rank": 13
+    },
+    {
+      "feature": "pct_govt_schools",
+      "label": "Government Schools (%)",
+      "mean_abs_shap": 2.1e-05,
+      "rank": 14
+    }
+  ],
+  "disclaimer": "SHAP values describe each feature's contribution to the model prediction. They are NOT causal estimates of policy effects."
+}

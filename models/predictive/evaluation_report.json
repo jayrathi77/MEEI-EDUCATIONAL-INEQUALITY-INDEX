@@ -1,0 +1,417 @@
+{
+  "n_folds": 5,
+  "validation_strategy": "State-grouped k-fold (GroupKFold)",
+  "evaluation_criterion": "Minimum mean RMSE",
+  "best_model": "Ridge Regression",
+  "model_summary": {
+    "Ridge Regression": {
+      "mean": {
+        "rmse": 0.105,
+        "mae": 0.0844,
+        "r2": 0.2745,
+        "spearman": 0.483
+      },
+      "std": {
+        "rmse": 0.0028,
+        "mae": 0.0038,
+        "r2": 0.1361,
+        "spearman": 0.0997
+      },
+      "folds": [
+        {
+          "rmse": 0.10570320108669716,
+          "mae": 0.08710136812868248,
+          "r2": 0.2692006821105365,
+          "spearman": 0.4367795983625386,
+          "fold": 1,
+          "test_states": [
+            "Nagaland",
+            "Odisha",
+            "Uttar Pradesh",
+            "West Bengal",
+            "Andaman and Nicobar Islands",
+            "Delhi"
+          ]
+        },
+        {
+          "rmse": 0.1094726672594048,
+          "mae": 0.08909254468249375,
+          "r2": 0.2294526592866789,
+          "spearman": 0.4788264625803931,
+          "fold": 2,
+          "test_states": [
+            "Andhra Pradesh",
+            "Gujarat",
+            "Madhya Pradesh",
+            "Meghalaya",
+            "Sikkim",
+            "Chandigarh",
+            "Jammu and Kashmir",
+            "Puducherry"
+          ]
+        },
+        {
+          "rmse": 0.10304363510746117,
+          "mae": 0.08053621559391119,
+          "r2": 0.13917152875521344,
+          "spearman": 0.4026817333275448,
+          "fold": 3,
+          "test_states": [
+            "Arunachal Pradesh",
+            "Haryana",
+            "Mizoram",
+            "Rajasthan",
+            "Telangana",
+            "Uttarakhand",
+            "Ladakh"
+          ]
+        },
+        {
+          "rmse": 0.10414709805661139,
+          "mae": 0.08413511442776915,
+          "r2": 0.5024311771925386,
+          "spearman": 0.6547082281582,
+          "fold": 4,
+          "test_states": [
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Himachal Pradesh",
+            "Kerala",
+            "Punjab"
+          ]
+        },
+        {
+          "rmse": 0.1025972841497928,
+          "mae": 0.08094144125243061,
+          "r2": 0.23216107969808697,
+          "spearman": 0.4418833272747388,
+          "fold": 5,
+          "test_states": [
+            "Jharkhand",
+            "Karnataka",
+            "Maharashtra",
+            "Manipur",
+            "Tamil Nadu",
+            "Tripura",
+            "Dadra and Nagar Haveli and Daman and Diu",
+            "Lakshadweep"
+          ]
+        }
+      ]
+    },
+    "Random Forest": {
+      "mean": {
+        "rmse": 0.1056,
+        "mae": 0.0843,
+        "r2": 0.269,
+        "spearman": 0.4753
+      },
+      "std": {
+        "rmse": 0.004,
+        "mae": 0.0047,
+        "r2": 0.1238,
+        "spearman": 0.0971
+      },
+      "folds": [
+        {
+          "rmse": 0.10871857771440997,
+          "mae": 0.08833052058637797,
+          "r2": 0.22691120522828745,
+          "spearman": 0.37731741711910843,
+          "fold": 1,
+          "test_states": [
+            "Nagaland",
+            "Odisha",
+            "Uttar Pradesh",
+            "West Bengal",
+            "Andaman and Nicobar Islands",
+            "Delhi"
+          ]
+        },
+        {
+          "rmse": 0.10923512084341841,
+          "mae": 0.08783354382557301,
+          "r2": 0.2327930760727035,
+          "spearman": 0.4813723726889897,
+          "fold": 2,
+          "test_states": [
+            "Andhra Pradesh",
+            "Gujarat",
+            "Madhya Pradesh",
+            "Meghalaya",
+            "Sikkim",
+            "Chandigarh",
+            "Jammu and Kashmir",
+            "Puducherry"
+          ]
+        },
+        {
+          "rmse": 0.10290139176700734,
+          "mae": 0.08066496271009276,
+          "r2": 0.1415464954971546,
+          "spearman": 0.41743312722108167,
+          "fold": 3,
+          "test_states": [
+            "Arunachal Pradesh",
+            "Haryana",
+            "Mizoram",
+            "Rajasthan",
+            "Telangana",
+            "Uttarakhand",
+            "Ladakh"
+          ]
+        },
+        {
+          "rmse": 0.10710333971043316,
+          "mae": 0.08686296684232436,
+          "r2": 0.47378304163688234,
+          "spearman": 0.6323439118327452,
+          "fold": 4,
+          "test_states": [
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Himachal Pradesh",
+            "Kerala",
+            "Punjab"
+          ]
+        },
+        {
+          "rmse": 0.10003786181957455,
+          "mae": 0.07802899976304098,
+          "r2": 0.2699927155520869,
+          "spearman": 0.46797426941252696,
+          "fold": 5,
+          "test_states": [
+            "Jharkhand",
+            "Karnataka",
+            "Maharashtra",
+            "Manipur",
+            "Tamil Nadu",
+            "Tripura",
+            "Dadra and Nagar Haveli and Daman and Diu",
+            "Lakshadweep"
+          ]
+        }
+      ]
+    },
+    "Gradient Boosting": {
+      "mean": {
+        "rmse": 0.1085,
+        "mae": 0.0868,
+        "r2": 0.2306,
+        "spearman": 0.468
+      },
+      "std": {
+        "rmse": 0.0056,
+        "mae": 0.0062,
+        "r2": 0.122,
+        "spearman": 0.0839
+      },
+      "folds": [
+        {
+          "rmse": 0.11268538688858061,
+          "mae": 0.0928455854125161,
+          "r2": 0.16946669162154449,
+          "spearman": 0.38403520755021225,
+          "fold": 1,
+          "test_states": [
+            "Nagaland",
+            "Odisha",
+            "Uttar Pradesh",
+            "West Bengal",
+            "Andaman and Nicobar Islands",
+            "Delhi"
+          ]
+        },
+        {
+          "rmse": 0.11319739722396115,
+          "mae": 0.09109674001447539,
+          "r2": 0.176125978302479,
+          "spearman": 0.45407438646977466,
+          "fold": 2,
+          "test_states": [
+            "Andhra Pradesh",
+            "Gujarat",
+            "Madhya Pradesh",
+            "Meghalaya",
+            "Sikkim",
+            "Chandigarh",
+            "Jammu and Kashmir",
+            "Puducherry"
+          ]
+        },
+        {
+          "rmse": 0.10427622323282774,
+          "mae": 0.08134361090061913,
+          "r2": 0.11845422835712749,
+          "spearman": 0.4308852076730816,
+          "fold": 3,
+          "test_states": [
+            "Arunachal Pradesh",
+            "Haryana",
+            "Mizoram",
+            "Rajasthan",
+            "Telangana",
+            "Uttarakhand",
+            "Ladakh"
+          ]
+        },
+        {
+          "rmse": 0.11155740923341935,
+          "mae": 0.08991749315417372,
+          "r2": 0.42910577075529865,
+          "spearman": 0.6077468850588257,
+          "fold": 4,
+          "test_states": [
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Himachal Pradesh",
+            "Kerala",
+            "Punjab"
+          ]
+        },
+        {
+          "rmse": 0.10074425979813617,
+          "mae": 0.07897081656644049,
+          "r2": 0.25964670589990657,
+          "spearman": 0.4633528788860615,
+          "fold": 5,
+          "test_states": [
+            "Jharkhand",
+            "Karnataka",
+            "Maharashtra",
+            "Manipur",
+            "Tamil Nadu",
+            "Tripura",
+            "Dadra and Nagar Haveli and Daman and Diu",
+            "Lakshadweep"
+          ]
+        }
+      ]
+    },
+    "Conditional Inference Forest (approx)": {
+      "mean": {
+        "rmse": 0.1065,
+        "mae": 0.085,
+        "r2": 0.2567,
+        "spearman": 0.4758
+      },
+      "std": {
+        "rmse": 0.0033,
+        "mae": 0.0042,
+        "r2": 0.1218,
+        "spearman": 0.0892
+      },
+      "folds": [
+        {
+          "rmse": 0.10918856026381125,
+          "mae": 0.08826478360148918,
+          "r2": 0.2202127440671986,
+          "spearman": 0.4088618243608135,
+          "fold": 1,
+          "test_states": [
+            "Nagaland",
+            "Odisha",
+            "Uttar Pradesh",
+            "West Bengal",
+            "Andaman and Nicobar Islands",
+            "Delhi"
+          ]
+        },
+        {
+          "rmse": 0.10965147810175656,
+          "mae": 0.08872636521226557,
+          "r2": 0.22693340497206715,
+          "spearman": 0.4836236890578582,
+          "fold": 2,
+          "test_states": [
+            "Andhra Pradesh",
+            "Gujarat",
+            "Madhya Pradesh",
+            "Meghalaya",
+            "Sikkim",
+            "Chandigarh",
+            "Jammu and Kashmir",
+            "Puducherry"
+          ]
+        },
+        {
+          "rmse": 0.10246436265307189,
+          "mae": 0.07996886004202043,
+          "r2": 0.14882283031970767,
+          "spearman": 0.4391989531068786,
+          "fold": 3,
+          "test_states": [
+            "Arunachal Pradesh",
+            "Haryana",
+            "Mizoram",
+            "Rajasthan",
+            "Telangana",
+            "Uttarakhand",
+            "Ladakh"
+          ]
+        },
+        {
+          "rmse": 0.10779313440897625,
+          "mae": 0.08719139106993662,
+          "r2": 0.46698305662289263,
+          "spearman": 0.627140456093129,
+          "fold": 4,
+          "test_states": [
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Himachal Pradesh",
+            "Kerala",
+            "Punjab"
+          ]
+        },
+        {
+          "rmse": 0.10337474307158848,
+          "mae": 0.0808279676429344,
+          "r2": 0.22047997039943124,
+          "spearman": 0.4203853266109276,
+          "fold": 5,
+          "test_states": [
+            "Jharkhand",
+            "Karnataka",
+            "Maharashtra",
+            "Manipur",
+            "Tamil Nadu",
+            "Tripura",
+            "Dadra and Nagar Haveli and Daman and Diu",
+            "Lakshadweep"
+          ]
+        }
+      ]
+    }
+  },
+  "feature_list": [
+    "pct_schools_electricity",
+    "pct_schools_drinking_water",
+    "pct_schools_toilets",
+    "pct_schools_computers",
+    "pct_schools_library",
+    "pct_schools_permanent_building",
+    "pupil_teacher_ratio",
+    "pct_schools_medical_checkup",
+    "pct_govt_schools",
+    "pct_literate_parents",
+    "pct_urban_hh",
+    "pct_sc_st_population",
+    "pct_professional_occupation",
+    "hdi_proxy"
+  ],
+  "target_cols": [
+    "perf_subindex",
+    "equity_subindex"
+  ],
+  "note_cif": "Conditional Inference Forest is approximated by ExtraTreesRegressor. A genuine CIF requires R partykit. See methodology.md."
+}

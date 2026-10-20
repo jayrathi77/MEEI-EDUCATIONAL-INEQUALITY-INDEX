@@ -1,0 +1,44 @@
+{
+  "status": "OK",
+  "estimation_level": "DISTRICT",
+  "outcome_variable": "nas_math_cl5",
+  "n_districts": 785,
+  "gini_overall": 0.144103,
+  "gini_predicted_types": 0.10923,
+  "iop_relative": 0.758002,
+  "iop_relative_pct": 75.8,
+  "circumstance_importance": {
+    "pct_literate_parents": {
+      "mean": 0.237442,
+      "std": 0.009605,
+      "rank": 2
+    },
+    "pct_urban_hh": {
+      "mean": 0.140463,
+      "std": 0.004985,
+      "rank": 5
+    },
+    "pct_sc_st_population": {
+      "mean": 0.151243,
+      "std": 0.005575,
+      "rank": 3
+    },
+    "pct_professional_occupation": {
+      "mean": 0.147331,
+      "std": 0.005877,
+      "rank": 4
+    },
+    "hdi_proxy": {
+      "mean": 1.061285,
+      "std": 0.043336,
+      "rank": 1
+    }
+  },
+  "circumstances_used": [
+    "pct_literate_parents",
+    "pct_urban_hh",
+    "pct_sc_st_population",
+    "pct_professional_occupation",
+    "hdi_proxy"
+  ]
+}
