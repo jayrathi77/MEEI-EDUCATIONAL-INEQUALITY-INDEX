@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multidimensional Educational Equality Index (MEEI) & Predictive Disadvantage Platform
 
 An end-to-end, scientifically grounded data science platform implementing the research paper:  
@@ -161,3 +162,6 @@ Open `http://localhost:5173/` in your browser.
 - **Pipeline Execution**: Completed successfully in dependency order.
 - **Test Suite**: 18 tests passing (`18 passed, 0 failed`).
 - **Production Build**: Frontend Vite build completed cleanly (`dist/` generated).
+=======
+# MEEI-EDUCATIONAL-INEQUALITY-INDEX
+>>>>>>> 06ec2a2f513b30d60e2e48e0175b77e3e1298c9c
